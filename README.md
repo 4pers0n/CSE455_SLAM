@@ -2,6 +2,9 @@
 
 ## Evan Zhao, University of Washington
 
+### Video walk through
+[![Preview](Preview.png)](https://drive.google.com/file/d/1AfT7i8c626hst9-Mr6PrKa9zHFqRE9MD/view?usp=sharing)
+
 
 ### Problem
 We aim to further extend the course content to study SLAM based inside-out tracking systems by mimicking the assignments in this class. We have designed theoretical questions related to basic introduction to SLAM. Then we built the starter code to put the theory into practice. We designed a basic 2D SLAM program that guides students through the pipeline of MonoSLAM (Real-Time Single Camera SLAM). The concepts and techniques we ask students to implement here are not only fundamental to SLAM but also applicable to other domains, such as multi-view geometry. 
@@ -16,5 +19,6 @@ We have carefully designed all the prompting questions and text blocks in the no
 The monocular SLAM pipeline is divided into two distinct parts for this project: the programming part and the conceptual part.
 In the programming part, the first section of code involves extracting keypoints from the input images and subsequently matching these keypoints between frames. This step is crucial for establishing correspondences and tracking features across consecutive frames.
 Following the keypoint extraction and matching, the second part of the code aims to reduce noise in the matching process. This is achieved by implementing a simple RANSAC (Random Sample Consensus) algorithm. RANSAC helps to eliminate outliers and improve the accuracy of the matched keypoints, thereby enhancing the overall performance of the SLAM system.
+![Comparison](Comparison.png)
 
-Moving on to the conceptual questions part, we have carefully designed the structure following an actual MonoSLAM pipeline. We do not assume that students should have any prior knowledge on SLAM more than what was required in this class. Instead, we added detailed helper information along with each step in the derivation to walk students through step by step. Complicated mathematical calculations are omitted from the questions to ensure a reasonable difficulty level. Yet key derivations in the algorithm are presented and we believe students will benefit from them in many ways. For more information about the theoretical questions part, please refer to the PDF file in either the student folder or the solutions folder along with this file.
+Moving on to the conceptual questions part, we have carefully designed the structure following an actual MonoSLAM pipeline. We do not assume that students should have any prior knowledge on SLAM more than what was required in this class. Instead, we added detailed helper information along with each step in the derivation to walk students through step by step. Complicated mathematical calculations are omitted from the questions to ensure a reasonable difficulty level. Yet key derivations in the algorithm are presented and we believe students will benefit from them in many ways. For more information about the theoretical questions part, please refer to the PDF file named "Homework".
